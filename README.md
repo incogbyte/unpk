@@ -35,9 +35,32 @@ Code Structure
 	•	PackageHelper:
 	•	Utility for fetching installed apps and managing APK paths.
 
-Screenshots
+Screenshot
 
 ![](/images/SCR-20241209-oezg.png)
+
+
+
+#### FAQ 
+
+1. How to install the apks splitted ? 
+
+```bash
+
+Instructions ADB:
+
+1. Install Split APKs:
+   adb install-multiple base.apk split_config.arm64_v8a.apk split_config.en.apk
+
+2. Get Arch of your device:
+   adb shell getprop ro.product.cpu.abi
+
+3. Install only one APK:
+   adb install foo.apk 
+
+```
+
+2. Some apps will not work, because of protections ( TODO FEATURE ) 
 
 License
 
