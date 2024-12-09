@@ -26,14 +26,14 @@ How to Use
 6.	View success or error notifications after the export.
 
 Code Structure
-•	MainActivity:
-•	Handles the UI, search bar, app list, and export actions.
-•	AppListAdapter:
-•	Adapter for displaying app details in the ListView.
-•	APKExporter:
-•	Core logic for extracting and exporting APK files.
-•	PackageHelper:
-•	Utility for fetching installed apps and managing APK paths.
+1.	MainActivity:
+2. 	Handles the UI, search bar, app list, and export actions.
+3. 	AppListAdapter:
+4.	Adapter for displaying app details in the ListView.
+5.	APKExporter:
+6.	Core logic for extracting and exporting APK files.
+7.	PackageHelper:
+8.	Utility for fetching installed apps and managing APK paths.
 
 Screenshot
 
