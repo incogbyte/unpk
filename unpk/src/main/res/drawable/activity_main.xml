@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título da aplicação -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APK Downloader"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Barra de busca -->
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search apps..."
+        android:inputType="text" />
+
+    <!-- Lista de aplicativos -->
+    <ListView
+        android:id="@+id/app_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Botão de exportação -->
+    <Button
+        android:id="@+id/export_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export APK" />
+</LinearLayout>

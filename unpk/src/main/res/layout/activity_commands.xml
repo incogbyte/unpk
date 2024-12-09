@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/instructions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:textIsSelectable="true"
+            android:text="Instructions ADB:\n\n1. Install Split APKs:\n   adb install-multiple base.apk split_config.arm64_v8a.apk split_config.en.apk\n\n2. Get Arch of your device:\n   adb shell getprop ro.product.cpu.abi\n\n3. Install only one APK:\n   adb install foo.apk \n\nUnpk @incogbyte" />
+    </LinearLayout>
+</ScrollView>
