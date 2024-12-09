@@ -18,22 +18,22 @@ Features
 	•	Merges split APK components into a single exportable package structure.
 
 How to Use
-	1.	Install the application on your Android device.
-	2.	Launch the app and browse the list of installed applications.
-	3.	Use the search bar to filter apps by name.
-	4.	Select one or more apps and tap the Export button.
-	5.	Choose a directory to save the APK files.
-	6.	View success or error notifications after the export.
+1.	Install the application on your Android device.
+2.	Launch the app and browse the list of installed applications.
+3.	Use the search bar to filter apps by name.
+4.	Select one or more apps and tap the Export button.
+5.	Choose a directory to save the APK files.
+6.	View success or error notifications after the export.
 
 Code Structure
-	•	MainActivity:
-	•	Handles the UI, search bar, app list, and export actions.
-	•	AppListAdapter:
-	•	Adapter for displaying app details in the ListView.
-	•	APKExporter:
-	•	Core logic for extracting and exporting APK files.
-	•	PackageHelper:
-	•	Utility for fetching installed apps and managing APK paths.
+•	MainActivity:
+•	Handles the UI, search bar, app list, and export actions.
+•	AppListAdapter:
+•	Adapter for displaying app details in the ListView.
+•	APKExporter:
+•	Core logic for extracting and exporting APK files.
+•	PackageHelper:
+•	Utility for fetching installed apps and managing APK paths.
 
 Screenshot
 
