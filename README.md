@@ -5,15 +5,15 @@ UNPK - Android APK Extractor
 UNPK is an Android application ( APK ) designed to extract and export APK files from installed applications on an Android device. It supports both base APKs and split APKs, allowing you to retrieve the necessary files for testing, backup (maybe (FAQ)).
 
 Features
-	1.	List Installed Applications:
+1.	List Installed Applications:
 	•	The app displays all installed applications on the device, with options to filter out system apps.
 	•	Displays app name, package name, icon, and APK information (e.g., split APK support).
-	2.	Search Functionality:
+2.	Search Functionality:
 	•	Quickly search and filter the app list by name using a responsive search bar.
-	3.	APK Export:
+3.	APK Export:
 	•	Export the APK files (base and split) of selected applications to a user-defined directory.
 	•	Uses Android’s ACTION_OPEN_DOCUMENT_TREE to safely select export destinations.
-	4.	Split APK Handling:
+4.	Split APK Handling:
 	•	Automatically detects and handles apps with split APKs.
 	•	Merges split APK components into a single exportable package structure.
 
